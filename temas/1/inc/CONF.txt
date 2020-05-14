@@ -1,0 +1,18 @@
+TEXTOS DO SITE FORNECIDOS PELO CLIENTE:
+<CODIGO>7</CODIGO>
+<CODIGO_PROJETO>15</CODIGO_PROJETO>
+<TITULO>DANIELE SÓRIO - FISIOTERAPIA E PILATES</TITULO>
+<SUBTITULO>Há 25 anos cuidando de quem mais precisa.</SUBTITULO>
+<APRESENTACAO_PESSOAL>Sou fisioterapeuta e professora de Pilates, formada pela Faculdade Metodista (IPA).Atuo na área da saúde a mais de 15 anos. Moda e produção de bolsas e acessórios é uma outra atividade que me dá grande satisfação, pois permite que eu libere minha criatividade. Adoro planejar, desenhar,						cortar e costurar cada peça, sempre na busca de um item exclusivo e melhor que o anterior. Alegria de viver é um dos meus princípios, que procuro passar para as minhas criações, sempre coloridas, alegres e de em com a vida!</APRESENTACAO_PESSOAL>
+<FINALIDADE_SITE>A Fisioterapia: É uma ciência da Saúde que estuda dos movimentos humanos em todas as formas de expressão e potencialidades,tanto nas alterações patológicas, quanto nas repercussões psíquicas e orgânicas. Seu objetivo é preservar, manter, desenvolver e restaurar a integridade do indivíduo em seu meio e lhe proporcionar melhor qualidade de vida.</FINALIDADE_SITE>
+<FONE_FIXO>(51)3333-2012</FONE_FIXO>
+<FONE_CELULAR>(51)9 8633-8234</FONE_CELULAR>
+<ENDERECO_COMERCIAL>Rua São Francisco da Califórnia, 363/307 - São João, Porto Alegre/RS</ENDERECO_COMERCIAL>
+<EMAIL>danielesorio@hotmail.com</EMAIL>
+<FACEBOOK>@danielesorio</FACEBOOK>
+<INSTAGRAM>@danielesorio.fisioterapiaepilates</INSTAGRAM>
+<TWITTER>linkedin</TWITTER>
+<LINKEDIN>twitter</LINKEDIN>
+<YOUTUBE>youtube</YOUTUBE>
+a partir daqui, dados de estilo!
+<TITULO_PAGINA>danielesorio</TITULO_PAGINA>

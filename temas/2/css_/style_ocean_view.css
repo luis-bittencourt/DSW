@@ -1,0 +1,401 @@
+body {
+	font-size:18px;
+	padding-top: 5rem;
+	background-color: #f5f5f5;
+}
+
+
+#div_aplicacao{
+
+	border:1px solid #000000;
+	//margin-top:20px;
+	//margin-left:20px;
+	//margin-right:20px;
+	position:relative;
+	width:96vw;
+	height:86vh;
+	background-color: #ffffff;
+
+
+}
+
+
+
+.rede_social{
+
+	font-size: 25px;
+
+}
+#temas_disponivies{
+	width:100vw;
+	height:100vh;
+
+}
+
+
+
+#texto_abertura{
+	font-size:0.8em;
+	border-left: 1px solid #B5B5B5;
+	border-top: 1px solid #B5B5B5;
+	border-right: 4px solid #B5B5B5;
+	border-bottom: 4px solid #B5B5B5;
+	border-radius:5px;
+	background-color: #f5f5f5 !important;
+	
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+	display:none;
+	//overflow:auto;
+	z-index:100;
+	position:absolute; 
+	width:80%;
+	height:350px;
+	
+}
+#texto_abertura li{
+	list-style-position: inside;
+
+}
+
+.div-tabs{
+	border: 1px solid #B5B5B5;
+	border-radius:5px;
+	position:absolute; 
+	width:100%;
+	//height:75vh;
+	overflow:auto;
+}
+
+.polaroid {
+  width: 25vw;
+  margin-right:10px;
+  margin-top:10px;
+  margin-bottom:10px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+   align-items: center;
+}
+.img-top{width: 100%;}
+
+@media(max-width: 768px){
+	.polaroid {
+	
+		width: 98vw;
+	
+	}
+
+
+}
+@media(max-width: 400px){
+	.polaroid {
+	
+		width: 50vw;
+	
+	}
+
+
+}
+
+
+.link-polaroid{
+
+	cursor:pointer;
+
+
+}
+.link-polaroid:hover{
+
+	cursor:pointer;
+	opacity: 3;
+	filter: alpha(opacity=30); /* For IE8 and earlier */
+	border-right: 5px solid #B5B5B5;
+	border-bottom: 5px solid #B5B5B5;
+
+
+}
+
+#escolhe_imagem{
+	z-index:999;
+	width:98vw;
+	height:100vh;
+	top:500%;
+	position:auto;
+
+}
+
+/*#myData{
+	height: 400px;
+	border: 1px solid  #eee;
+	overflow:auto;
+}
+
+#myData2{
+	height: 250px;
+	//border: 1px solid  #eee;
+	border: 1px solid  #000000;
+	overflow:auto;
+	margin-top: 20px;
+}*/
+
+
+/*.imagem_logo {
+	height: 250px;
+	float: left;
+	width: 23%;
+	padding: 5px;
+	margin: 20px 30px 20px 50px;
+	
+}*/
+
+.link {
+	cursor:pointer;
+	color:#4876FF;
+} 
+
+.link:hover {
+	color:#ff0000;
+} 
+
+/*.required{
+
+	//border-color:#cccccc;
+	//background:#eeeeee;
+	
+}*/
+
+/*fieldset{
+	border:1px solid #EEE8CD; 
+	padding-left:10px; 
+	padding-top:5px; 
+	padding-right:10px; 
+	border-radius:5px;
+}*/
+
+/*#mask {
+	position:absolute; 
+	top:0; 
+	height:100%; 
+	left:0px; 
+	width:100%; 
+	filter: alpha(opacity=80); 
+	background: rgb(0, 0, 0); opacity: 0.8;
+	background-color:#000000;
+	z-index:99999;
+} #mask-container {
+	position:absolute; 
+	left:50%; 
+	//margin-left:-375px; 
+	margin-left:-600px; 
+	width:80%; 
+	height:750px;
+	top:80px; 
+	background-color:#eeeeee;
+	z-index:999999; 
+	overflow-y:auto;
+	border:2px solid #000;
+}*/
+
+/*.btn-outline-success{
+	border:1px solid #4169E1;
+	color:#4169E1;
+	background-color:#ffffff;
+}
+.btn-outline-success:hover{
+	border:2px solid #ff0000;
+	color:#ff0000;
+
+}*/
+
+
+/* CUSTOMIZE FORM LOGIN
+-------------------------------------------------- */
+/*.form-signin {
+  width: 100%;
+  max-width: 420px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group > input,
+.form-label-group > label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0; 
+  line-height: 1.5;
+  color: #495057;
+  cursor: text; 
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  font-size: 12px;
+  color: #777;
+}*/
+
+
+
+
+/* Custom FOOTER
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+
+.footer{
+	//background-color:#B5B5B5 !important;
+	background-color: #f5f5f5;
+	padding-top:20px;
+	padding-bottom:20px;
+
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+
+
+/*validate JS
+* { font-family: Verdana; font-size: 96%; }
+label { display: block; margin-top: 10px; }
+label.error { float: none; color: red; margin: 0 .5em 0 0; vertical-align: top; font-size: 10px }
+p { clear: both; }
+.submit { margin-top: 1em; }
+em { font-weight: bold; padding-right: 1em; vertical-align: top; }*/
